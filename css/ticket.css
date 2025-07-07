@@ -87,18 +87,7 @@
     margin: 40px auto 20px auto; /* 上下左右の余白と中央寄せ */
     max-width: 800px; /* テーブルと同じ幅に揃える */
     padding: 20px; /* 内側の余白 */
-    background-color: #ffffff; /* 背景色を白にする */
-    border-radius: 8px; /* 角を丸くする */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 軽い影をつける */
-    text-align: center; /* h3を中央揃えに */
     box-sizing: border-box; /* パディングを幅に含める */
-}
-
-.opening-hours-container h3 {
-    font-size: 20pt;
-    font-weight: bold;
-    margin-bottom: 25px;
-    color: #333;
 }
 
 .hours-list {
@@ -127,31 +116,10 @@
     text-align: left; /* ddのテキストを左揃えに */
 }
 
-.hours-list dt, .hours-list dd {
-    flex: 0 0 auto; /* dtとddの幅を内容に合わせる */
-}
-
 /* スマートフォンでの表示調整 */
 @media (max-width: 768px) {
-    .price-table-container,
     .opening-hours-container {
-        padding: 0 10px; /* 左右のパディングを減らす */
-        margin: 2em auto; /* 余白を調整 */
-    }
-
-    .price-table th,
-    .price-table td {
-        padding: 8px 10px; /* セルのパディングを減らす */
-        font-size: 14px; /* 文字サイズを小さくする */
-    }
-
-    .price-table th:last-child,
-    .price-table td:last-child {
-        width: auto; /* 幅の固定を解除し、内容に合わせる */
-    }
-
-    .price-table .note {
-        font-size: 0.8em; /* 注釈の文字をさらに小さく */
+        padding: 10px 0; /* モバイルでの左右パディングも0に */
     }
 
     .opening-hours-container h3 {
@@ -160,16 +128,17 @@
 
     .hours-list {
         flex-direction: column; /* 縦並びにする */
-        align-items: center; /* 中央揃え */
+        align-items: center; /* 縦並びの各アイテムを中央揃え */
+        max-width: none; /* 幅の制限を解除 */
     }
 
     .hours-list dt, .hours-list dd {
-        text-align: center; /* 中央揃え */
+        text-align: center; /* モバイルではdtとddも中央揃えに */
         margin-right: 0;
         min-width: unset;
     }
 
     .hours-list dd {
-        margin-bottom: 20px; /* 項目間のスペースを増やす */
+        margin-bottom: 15px; /* 項目間のスペースを調整 */
     }
 }
