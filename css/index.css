@@ -91,7 +91,7 @@ img{
 
 .header-logo{
     display: block;
-    width: 170px;
+    width: auto;
 }
 
 .site-menu ul{
@@ -110,10 +110,7 @@ img{
 }
 
 .floating ul li a img {
-    width: 60px; /* 例: 幅を50pxに設定 */
-    height: auto; /* 高さは自動調整 */
-    vertical-align: middle; /* テキストと画像を中央揃えにする場合 */
-    margin-right: 5px; /* テキストとの間にスペースを空ける場合 */
+    width: 80px; /* 例: 幅を80pxに設定 */
 }
 
 @media (max-width: 800px){
@@ -183,9 +180,12 @@ img{
         padding-top:50px;
     }
 
+    /*
     .footer-logo{
-        margin-top: 60px;
+        margin-top: 60px
     }
+    
+    */
 
     .copyright{
         margin-top: 50px;
