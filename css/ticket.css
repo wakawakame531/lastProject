@@ -110,7 +110,7 @@
 
 .hours-list dd {
     margin-left: 0; /* ddのデフォルトマージンをリセット */
-    font-size: 22pt;
+    font-size: 18pt;
     color: #333;
     margin-bottom: 10px; /* 各項目間の縦のスペース */
     text-align: left; /* ddのテキストを左揃えに */
@@ -120,10 +120,6 @@
 @media (max-width: 768px) {
     .opening-hours-container {
         padding: 10px 0; /* モバイルでの左右パディングも0に */
-    }
-
-    .opening-hours-container h3 {
-        font-size: 18pt; /* 営業時間のタイトルを小さく */
     }
 
     .hours-list {
@@ -139,7 +135,7 @@
     }
 
     .hours-list dd {
-        font-size: 22pt;
+        font-size: 18pt;
         margin-bottom: 15px;
     }
 }
