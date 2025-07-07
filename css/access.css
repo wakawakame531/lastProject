@@ -20,13 +20,32 @@
     margin-bottom: 50px;
 }
 
-.access-info dd {
-    margin-bottom: 20px;
+.access-info dt {
+    margin-top: 20px;
 }
+
+
 
 .map iframe{
     display: block;
     width: 80%;
     height: 400px;
     margin-top: 25px;
+}
+
+/* --- アクセス情報の文字サイズ調整 --- */
+
+/* 見出し「交通アクセス」の文字サイズ */
+.access-info h2 {
+    font-size: 24px; /* 例：24ピクセル */
+}
+
+/* 項目名（住所、など）の文字サイズ */
+.access-info dt {
+    font-size: 16px; /* 例：16ピクセル（標準サイズ）*/
+}
+
+/* 説明文（〒468...など）の文字サイズ */
+.access-info dd {
+    font-size: 14px; /* 例：14ピクセル（少し小さめ）*/
 }
