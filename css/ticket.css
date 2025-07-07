@@ -110,7 +110,7 @@
 
 .hours-list dd {
     margin-left: 0; /* ddのデフォルトマージンをリセット */
-    font-size: 10pt;
+    font-size: 5pt;
     color: #333;
     margin-bottom: 10px; /* 各項目間の縦のスペース */
     text-align: left; /* ddのテキストを左揃えに */
@@ -135,7 +135,7 @@
     }
 
     .hours-list dd {
-        font-size: 10pt;
+        font-size: 5pt;
         margin-bottom: 15px;
     }
 }
