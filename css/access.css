@@ -44,3 +44,7 @@
 .access-info dd {
     font-size: 20px; /* 例：14ピクセル（少し小さめ）*/
 }
+
+body {
+    background-color: #f0f8ff; /* ← お好みの色を指定 */
+}
