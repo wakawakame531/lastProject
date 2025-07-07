@@ -235,3 +235,8 @@ img{
     color:#705a55;
     margin-top: 30px;
 }
+
+.image-source a {
+    color: #666;
+    text-decoration: underline;
+}
