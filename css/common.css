@@ -29,6 +29,13 @@ img{
     max-width: 100%;
 }
 
+.floating img {
+    width: 10px; /* 例: 幅を10pxに設定 */
+    height: auto; /* 高さは自動調整 */
+    vertical-align: middle; /* テキストと画像を中央揃えにする場合 */
+    margin-right: 5px; /* テキストとの間にスペースを空ける場合 */
+}
+
 .header-inner{
     max-width: 1200px;
     height: 110px;
