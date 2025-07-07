@@ -205,6 +205,10 @@ img{
     .copyright{
         margin-top: 50px;
     }
+
+    .image-source{
+        margin-top: 40px;
+    }
 }
 
 .footer{
@@ -228,4 +232,10 @@ img{
     font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
+}
+
+.copyright{
+    font-size: 12pt;
+    color:#5a423c;
+    margin-top: 80px;
 }
