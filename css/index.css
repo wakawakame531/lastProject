@@ -185,7 +185,7 @@ img{
         color: #ffffff;
         background-color: #736e62;
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         display: none;
     }
 
@@ -199,7 +199,7 @@ img{
 
     
     .footer-logo{
-        margin-top: 60px
+        margin-top: 50px
     }
 
     .copyright{
@@ -221,17 +221,17 @@ img{
 .footer-logo{
     display: block;
     width: auto;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .copyright{
     font-size: 14pt;
     font-weight: bold;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .image-source{
     font-size: 12pt;
     color:#5a423c;
-    margin-top: 80px;
+    margin-top: 30px;
 }
