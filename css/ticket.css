@@ -81,3 +81,95 @@
     color: #333;          /* 文字色を少し薄くする */
     line-height: 1.5;     /* 行間を少し広げる */
 }
+
+/* 営業時間セクションのスタイル */
+.opening-hours-container {
+    margin: 40px auto 20px auto; /* 上下左右の余白と中央寄せ */
+    max-width: 800px; /* テーブルと同じ幅に揃える */
+    padding: 20px; /* 内側の余白 */
+    background-color: #ffffff; /* 背景色を白にする */
+    border-radius: 8px; /* 角を丸くする */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 軽い影をつける */
+    text-align: center; /* h3を中央揃えに */
+    box-sizing: border-box; /* パディングを幅に含める */
+}
+
+.opening-hours-container h3 {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.hours-list {
+    list-style: none; /* リストの点などを消す */
+    padding: 0;
+    margin: 0;
+    display: flex; /* dtとddを横並びにする */
+    flex-wrap: wrap; /* 必要に応じて折り返す */
+    justify-content: center; /* 項目を中央揃えにする */
+}
+
+.hours-list dt {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #555;
+    margin-right: 15px; /* dtとddの間のスペース */
+    min-width: 80px; /* dtの最小幅を設定して揃える */
+    text-align: right; /* dtのテキストを右揃えに */
+}
+
+.hours-list dd {
+    margin-left: 0; /* ddのデフォルトマージンをリセット */
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px; /* 各項目間の縦のスペース */
+    text-align: left; /* ddのテキストを左揃えに */
+}
+
+.hours-list dt, .hours-list dd {
+    flex: 0 0 auto; /* dtとddの幅を内容に合わせる */
+}
+
+/* スマートフォンでの表示調整 */
+@media (max-width: 768px) {
+    .price-table-container,
+    .opening-hours-container {
+        padding: 0 10px; /* 左右のパディングを減らす */
+        margin: 2em auto; /* 余白を調整 */
+    }
+
+    .price-table th,
+    .price-table td {
+        padding: 8px 10px; /* セルのパディングを減らす */
+        font-size: 14px; /* 文字サイズを小さくする */
+    }
+
+    .price-table th:last-child,
+    .price-table td:last-child {
+        width: auto; /* 幅の固定を解除し、内容に合わせる */
+    }
+
+    .price-table .note {
+        font-size: 0.8em; /* 注釈の文字をさらに小さく */
+    }
+
+    .opening-hours-container h3 {
+        font-size: 18pt; /* 営業時間のタイトルを小さく */
+    }
+
+    .hours-list {
+        flex-direction: column; /* 縦並びにする */
+        align-items: center; /* 中央揃え */
+    }
+
+    .hours-list dt, .hours-list dd {
+        text-align: center; /* 中央揃え */
+        margin-right: 0;
+        min-width: unset;
+    }
+
+    .hours-list dd {
+        margin-bottom: 20px; /* 項目間のスペースを増やす */
+    }
+}
