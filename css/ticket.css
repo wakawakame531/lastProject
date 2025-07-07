@@ -139,7 +139,7 @@
     }
 
     .hours-list dd {
-        font-size: 1.0em; /* ★ここも修正しました！ モバイル表示でも小さく */
+        font-size: 1.0em;
         margin-bottom: 15px;
     }
 }
