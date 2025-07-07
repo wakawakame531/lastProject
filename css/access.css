@@ -6,6 +6,18 @@
     margin-right: auto;
 }
 
+.access-info {
+    width: 80%; /* コンテンツの全体の幅を80%に指定 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* アクセス情報ブロックの上に余白を追加 */
+.access-info {
+    margin-top: 50px;
+}
+
+
 .map iframe{
     display: block;
     width: 80%;
