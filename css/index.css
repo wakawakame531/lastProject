@@ -8,17 +8,17 @@ nav.floating{
 }
 
 .floating ul li a {
-    display: flex; /* Flexboxを使って子要素を整列させる */
-    align-items: center; /* 垂直方向の中央揃え */
-    justify-content: center; /* 必要であれば水平方向の中央揃え */
-    text-decoration: none; /* リンクの下線を消す */
-    color: inherit; /* 親要素から色を継承 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 .floating ul li a img {
-    width: 60px; /* 例: 幅を80pxに設定 */
-    height: auto; /* 高さは自動調整 */
-    vertical-align: middle; /* テキストと画像を中央揃えにする場合 */
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
 }
 
 .first-view{
