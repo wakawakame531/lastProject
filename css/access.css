@@ -17,8 +17,12 @@
 /* アクセス情報ブロックの上に余白を追加 */
 .access-info {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+.access-info dd {
+    margin-bottom: 20px;
+}
 
 .map iframe{
     display: block;
