@@ -22,21 +22,61 @@
 }
 
 .play-list {
-    display: flex;
+    /* 以前の横並び・スクロール設定を解除し、縦並びにする */
+    display: block; /* Flexboxを解除 */
     padding-top: 40px;
     padding-bottom: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
-    overflow: scroll;
+    padding-left: 20px; /* 左右のパディングを調整 */
+    padding-right: 20px; /* 左右のパディングを調整 */
+    overflow: visible; /* スクロールを解除 */
+    list-style: none; /* リストのマーカーを削除 */
+    margin: 0 auto; /* 中央寄せにする場合 */
+    max-width: 800px; /* 必要に応じて最大幅を設定 */
 }
 
 .play-list li {
-    flex-shrink: 0;
-    width: 220px;
-    margin-left: 30px;
+    /* 横幅の固定を解除し、縦並びに適したスタイルに変更 */
+    flex-shrink: unset; /* flex-shrinkの解除 */
+    width: 100%; /* 親要素の幅いっぱいに広げる */
+    margin-left: 0; /* 左マージンをリセット */
+    margin-bottom: 40px; /* 各項目間の間隔 */
+    text-align: center; /* 画像とタイトルを中央寄せにするため */
+    border-bottom: 1px solid #e0e0e0; /* 各項目の下に薄い灰色の線を追加 */
+    padding-bottom: 30px; /* 線と次の項目の間のスペース */
 }
 
 .play-list li:first-child {
     margin-left: 0;
 }
 
+.play-list li:last-child {
+    border-bottom: none; /* 最後の項目には線を引かない */
+    margin-bottom: 0; /* 最後の項目の下マージンをなくす */
+}
+
+.play-list img {
+    max-width: 100%; /* 画像が親要素からはみ出さないように */
+    height: auto;
+    display: block; /* 画像の下の余白をなくす */
+    margin: 0 auto 15px auto; /* 中央揃えにして下に少し余白 */
+}
+
+.play-list dt {
+    font-size: 1.5em; /* タイトルの文字サイズを調整 */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.play-description {
+    margin-top: 15px; /* タイトルと説明文の間のスペース */
+    text-align: left; /* 説明文を左揃えにする */
+    padding: 0 15px; /* 左右にパディングを追加して見やすくする */
+    max-width: 600px; /* 説明文の最大幅を設定して読みやすくする */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.play-description p {
+    margin-bottom: 8px; /* 各段落の下の余白 */
+    line-height: 1.6; /* 行の高さ */
+}
