@@ -215,7 +215,6 @@ img{
 .footer-logo{
     display: block;
     width: auto;
-    height: calc(100vh - 110px);
     margin-top: 90px;
 }
 
