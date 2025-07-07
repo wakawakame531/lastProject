@@ -16,7 +16,7 @@ nav.floating{
 }
 
 .floating ul li a img {
-    width: 80px; /* 例: 幅を80pxに設定 */
+    width: 60px; /* 例: 幅を80pxに設定 */
     height: auto; /* 高さは自動調整 */
     vertical-align: middle; /* テキストと画像を中央揃えにする場合 */
 }
@@ -119,9 +119,11 @@ img{
 }
 
 .site-menu ul li a{
-    font-family: "DotGothic16", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    .yusei-magic-regular {
+        font-family: "Yusei Magic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
 }
 
 @media (max-width: 800px){
