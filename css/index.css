@@ -109,7 +109,7 @@ img{
     font-style: normal;
 }
 
-.floating img {
+.floating ul li a img {
     width: 50px; /* 例: 幅を50pxに設定 */
     height: auto; /* 高さは自動調整 */
     vertical-align: middle; /* テキストと画像を中央揃えにする場合 */
@@ -205,7 +205,7 @@ img{
 
 .footer-logo{
     display: block;
-    width: 235px;
+    width: auto;
     margin-top: 90px;
 }
 
