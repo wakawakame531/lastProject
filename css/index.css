@@ -7,6 +7,14 @@ nav.floating{
     background-color: #96b38e;
 }
 
+.floating ul li a {
+    display: flex; /* Flexboxを使って子要素を整列させる */
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: center; /* 必要であれば水平方向の中央揃え */
+    text-decoration: none; /* リンクの下線を消す */
+    color: inherit; /* 親要素から色を継承 */
+}
+
 .floating ul li a img {
     width: 80px; /* 例: 幅を80pxに設定 */
     height: auto; /* 高さは自動調整 */
