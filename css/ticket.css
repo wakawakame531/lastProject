@@ -39,4 +39,45 @@
 .ticket-list li:first-child {
     margin-left: 0;
 }
+/* テーブル全体を囲むコンテナ */
+.price-table-container {
+    margin: 2em 0; /* テーブルの上下に余白を設ける */
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif; /* モダンなフォントを指定 */
+}
 
+/* テーブル本体のスタイル */
+.price-table {
+    width: 100%;               /* 幅を100%にする */
+    border-collapse: collapse; /* ボーダーを1本線にする */
+    font-size: 16px;           /* 基本の文字サイズ */
+}
+
+/* すべてのセル（th, td）の共通スタイル */
+.price-table th,
+.price-table td {
+    border: 1px solid #ddd;  /* セルに薄いグレーの枠線を設定 */
+    padding: 12px 15px;      /* セルの内側に余白を設定 */
+    text-align: center;      /* 文字を中央揃えにする */
+    vertical-align: middle;  /* 文字を上下中央に配置 */
+}
+
+/* 見出し行（thead）のセルのスタイル */
+.price-table thead th {
+    background-color: #f8f8f8; /* 見出し行に薄い背景色を付ける */
+}
+
+/* 「備考」列のスタイル */
+.price-table th:last-child,
+.price-table td:last-child {
+    text-align: left; /* 「備考」列の文字だけ左揃えにする */
+    width: 40%;       /* 「備考」列の幅を広めに取る */
+}
+
+/* 「備考」欄の注釈（※から始まる文）のスタイル */
+.price-table .note {
+    display: inline-block;
+    margin-top: 8px;      /* 上の文との間に少し余白を設ける */
+    font-size: 0.9em;     /* 少し文字を小さくする */
+    color: #333;          /* 文字色を少し薄くする */
+    line-height: 1.5;     /* 行間を少し広げる */
+}
