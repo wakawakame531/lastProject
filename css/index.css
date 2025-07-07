@@ -110,7 +110,7 @@ img{
 }
 
 .floating ul li a img {
-    width: 50px; /* 例: 幅を50pxに設定 */
+    width: 60px; /* 例: 幅を50pxに設定 */
     height: auto; /* 高さは自動調整 */
     vertical-align: middle; /* テキストと画像を中央揃えにする場合 */
     margin-right: 5px; /* テキストとの間にスペースを空ける場合 */
