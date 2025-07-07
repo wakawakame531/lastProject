@@ -82,7 +82,7 @@
 }
 
 .color-meruhen {
-    color: pink
+    color: #27ae60; /* 例：緑色 */
 }
 
 .color-kazaguruma {
@@ -90,5 +90,5 @@
 }
 
 .color-norimono {
-    color: #3498db; /* 例：青色 */
+    color: #27ae60; /* 例：緑色 */
 }
