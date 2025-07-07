@@ -9,6 +9,7 @@ nav.floating{
 
 .first-view{
     height: calc(100vh - 110px);
+    width:auto;
     background-image:url(../images/index/top1.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -111,6 +112,7 @@ img{
 
 .floating ul li a img {
     width: 80px; /* 例: 幅を80pxに設定 */
+    vertical-align: middle; /* テキストと画像を中央揃えにする場合 */
 }
 
 @media (max-width: 800px){
@@ -180,12 +182,10 @@ img{
         padding-top:50px;
     }
 
-    /*
+    
     .footer-logo{
         margin-top: 60px
     }
-    
-    */
 
     .copyright{
         margin-top: 50px;
@@ -206,6 +206,7 @@ img{
 .footer-logo{
     display: block;
     width: auto;
+    height: calc(100vh - 110px);
     margin-top: 90px;
 }
 
