@@ -80,3 +80,15 @@
     margin-bottom: 8px; /* 各段落の下の余白 */
     line-height: 1.6; /* 行の高さ */
 }
+
+.color-meruhen {
+    color: pink
+}
+
+.color-kazaguruma {
+    color: #27ae60; /* 例：緑色 */
+}
+
+.color-norimono {
+    color: #3498db; /* 例：青色 */
+}
