@@ -35,13 +35,13 @@
     align-items: flex-start;
 }
 
-.garden h2{
+.garden h1{
     font-size: 22pt;
     font-weight: bold;
     text-align: center;
 }
 
-.garden h2::after{
+.garden h1::after{
     content: '';
     display: block;
     width: 36px;
