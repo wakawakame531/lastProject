@@ -11,8 +11,10 @@ window.addEventListener('load',function(){
         }
     });
 
-    const elements = document.querySelector('.anim-box.fadeup');
-    elements.classList.add('is-animated');
+    const elements = document.querySelectorAll('.anim-box.fadeup');
+    elements.forEach(element => {
+        element.classList.add('is-animated');
+    });
 });
 
 $(function(){
