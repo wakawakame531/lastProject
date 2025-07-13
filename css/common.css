@@ -30,10 +30,27 @@ img{
 }
 
 .anim-box {
-  background: linear-gradient(to right, #362ae0 0%,#3b79cc 50%,#42d3ed 100%);
   border-radius: 5px;
   max-width: 400px;
   height: 250px;
+}
+
+.anim-box.fadeup.is-animated {
+  animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+@keyframes fadeup {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .header-inner{
