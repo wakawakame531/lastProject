@@ -1,3 +1,33 @@
+.anim-box {
+  border-radius: 5px;
+  max-width: 400px;
+  height: 300px;
+}
+
+.anim-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.anim-box.fadeup.is-animated {
+  animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+@keyframes fadeup {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .title{
     height: 310px;
     /*background-image: url(../images/concept/bg-main.jpg);*/
@@ -84,6 +114,10 @@
     font-size: 15px;
     line-height: 28px;
     margin-top: 25px;
+}
+
+.garden + .garden {
+  margin-top: 100px;
 }
 
 .footer{
