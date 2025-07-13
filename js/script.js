@@ -10,6 +10,8 @@ window.addEventListener('load',function(){
             $menu.classList.add('is-show');
         }
     });
+    
+    const animElements = document.querySelectorAll('.anim-box.fadeup');
 
     const observer = new IntersectionObserver(function(entries) {
         entries.forEach(entry => {
