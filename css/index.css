@@ -5,6 +5,8 @@ nav.floating{
     top: 130px;
     left: 50px;
     background-color: #ebf4e9;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .floating ul li a {
