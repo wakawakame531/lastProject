@@ -11,9 +11,17 @@ window.addEventListener('load',function(){
         }
     });
 
-    const elements = document.querySelectorAll('.anim-box.fadeup');
-    elements.forEach(element => {
-        element.classList.add('is-animated');
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-animated');
+                observer.unobserve(entry.target);
+            }
+        });
+    });
+
+    animElements.forEach(element => {
+        observer.observe(element);
     });
 });
 
