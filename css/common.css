@@ -31,8 +31,8 @@ img{
 
 .anim-box {
   border-radius: 5px;
-  max-width: 400px;
-  height: 250px;
+  max-width: 280px;
+  height: 210px;
 }
 
 .anim-box.fadeup.is-animated {
