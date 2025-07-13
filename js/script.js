@@ -10,7 +10,7 @@ window.addEventListener('load',function(){
             $menu.classList.add('is-show');
         }
     });
-    
+
     const animElements = document.querySelectorAll('.anim-box.fadeup');
 
     const observer = new IntersectionObserver(function(entries) {
@@ -30,7 +30,7 @@ window.addEventListener('load',function(){
 $(function(){
     $(window).scroll(function(){
         $("nav.floating").stop().animate(
-            {"top":$(window).scrollTop() +100},
+            {"top":$(window).scrollTop() +450},
             500);
     });
 });
