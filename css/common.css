@@ -29,6 +29,13 @@ img{
     max-width: 100%;
 }
 
+.anim-box {
+  background: linear-gradient(to right, #362ae0 0%,#3b79cc 50%,#42d3ed 100%);
+  border-radius: 5px;
+  max-width: 400px;
+  height: 250px;
+}
+
 .header-inner{
     max-width: 1200px;
     height: 110px;
