@@ -11,8 +11,8 @@ window.addEventListener('load',function(){
         }
     });
 
-    const element = this.document.querySelector('.anim-box.fadeup');
-    element.classList.add('is-animated');
+    const elements = document.querySelector('.anim-box.fadeup');
+    elements.classList.add('is-animated');
 });
 
 $(function(){
