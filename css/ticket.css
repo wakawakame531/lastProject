@@ -100,7 +100,6 @@
 }
 
 .hours-list dt {
-    font-weight: bold;
     font-size: 1.1em;
     color: #555;
     margin-right: 15px; /* dtとddの間のスペース */
