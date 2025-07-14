@@ -72,6 +72,7 @@ img{
         width: 44px;
         height: 34px;
         background-image: url(../images/common/icon-menu.png);
+        background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
         background-color: transparent;
@@ -119,7 +120,7 @@ img{
         color: #ffffff;
         background-color: #afa691;
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         display: none;
     }
 
@@ -131,12 +132,13 @@ img{
         padding-top:50px;
     }
 
+    
     .footer-logo{
-        margin-top: 60px;
+        margin-top: 50px
     }
 
     .copyright{
-        margin-top: 50px;
+        margin-top: 30px;
     }
 }
 
