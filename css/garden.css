@@ -28,29 +28,24 @@
   }
 }
 
-.title{
-    height: 310px;
-    /*background-image: url(../images/concept/bg-main.jpg);*/
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    text-shadow: 1px 1px 10px #4b2c14;
+.title h2{
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  color: #542d24;
+  margin-top: 40px;
 }
 
-.title h1{
-    font-family: 'Montserrat',sans-serif;
-    font-size: 32pt;
-    font-weight: bold;
-}
-
-.title p{
-    font-size: 14px;
-    margin-top: 15px;
+.title h2::after{
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #542d24;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .garden{
@@ -63,42 +58,43 @@
   margin-left: auto;
   margin-right: auto;
   align-items: flex-start;
+  color: #542d24;
 }
 
 .garden h1{
-    font-size: 22pt;
-    font-weight: bold;
-    text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  text-align: center;
 }
 
 .garden h1::after{
-    content: '';
-    display: block;
-    width: 36px;
-    height: 3px;
-    background-color: #000000;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #542d24;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .garden-text{
-    max-width: 500px;
-    margin-right: 30px;
+  max-width: 500px;
+  margin-right: 30px;
 }
 
 .reverse{
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .reverse .garden-text{
-    margin-left: 30px;
-    margin-right: 0;
+  margin-left: 30px;
+  margin-right: 0;
 }
 
 .garden-text h2{
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
 }
 
 .garden-text h2::after{
@@ -106,7 +102,7 @@
     display: block;
     width: 36px;
     height: 3px;
-    background-color: #000000;
+    background-color: #542d24;
     margin-top: 20px;
 }
 

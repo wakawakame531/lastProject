@@ -20,9 +20,45 @@ a{
 body{
     font-family: "M PLUS 1p", sans-serif;
     font-size: 16pt;
-    color: #000000;
+    color: #542d24;
     line-height: 1;
     background-color: #ffffff;
+}
+
+nav.floating{
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    bottom: 800px;
+    left: 40px;
+    background-color: #ebf4e9;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.floating:hover{
+    opacity: 1;
+}
+
+.floating ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.fukidashi {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.ki-bo{
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
 }
 
 img{
