@@ -93,7 +93,7 @@ a{
 body{
     font-family: sans-serif;
     font-size: 16pt;
-    color: #000000;
+    color: #542d24;
     line-height: 1;
     background-color: #ffffff;
 }
@@ -140,6 +140,12 @@ img{
 
 @media (max-width: 800px){
 
+    nav.floating {
+        position: fixed; /* ← スクロールしてもついてくる */
+        bottom: 20px;    /* 画面下から20px */
+        right: 20px;     /* 画面右から20px */
+        left: auto;      /* PC版の left を打ち消す */
+    }
     .toggle-menu-button{
         display: block;
         width: 44px;

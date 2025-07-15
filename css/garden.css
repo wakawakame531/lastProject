@@ -29,12 +29,10 @@
 }
 
 .title h2{
-  font-size: 34px;
+  font-size: 22pt;
   font-weight: bold;
-  line-height: 30px;
   text-align: center;
-  color: #542d24;
-  margin-top: 40px;
+  padding-top: 45px;
 }
 
 .title h2::after{
@@ -118,6 +116,10 @@
 
 body{
     background-color: rgb(249, 245, 240);
+}
+
+.header{
+  background-color: #ffffff;
 }
 
 .footer{
