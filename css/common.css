@@ -31,7 +31,6 @@ nav.floating{
     position: absolute;
     bottom: 800px;
     left: 40px;
-    background-color: #ebf4e9;
     display: table-cell;
     vertical-align: middle;
 }
