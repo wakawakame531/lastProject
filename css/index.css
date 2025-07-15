@@ -141,8 +141,7 @@ img{
 @media (max-width: 800px){
 
     nav.floating {
-        position: fixed; /* ← スクロールしてもついてくる */
-        bottom: 20px;    /* 画面下から20px */
+        bottom: 25px;    /* 画面下から20px */
         right: 20px;     /* 画面右から20px */
         left: auto;      /* PC版の left を打ち消す */
     }

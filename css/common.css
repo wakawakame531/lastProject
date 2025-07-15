@@ -102,6 +102,12 @@ img{
 
 @media (max-width: 800px){
 
+    nav.floating {
+        bottom: 25px;    /* 画面下から20px */
+        right: 20px;     /* 画面右から20px */
+        left: auto;      /* PC版の left を打ち消す */
+    }
+
     .toggle-menu-button{
         display: block;
         width: 44px;
