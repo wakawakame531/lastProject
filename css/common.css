@@ -33,6 +33,7 @@ nav.floating{
     left: 40px;
     display: table-cell;
     vertical-align: middle;
+    z-index: 9999;
 }
 
 .floating:hover{
@@ -106,6 +107,7 @@ img{
         bottom: 25px;    /* 画面下から20px */
         right: 20px;     /* 画面右から20px */
         left: auto;      /* PC版の left を打ち消す */
+        z-index: 9999;
     }
 
     .toggle-menu-button{

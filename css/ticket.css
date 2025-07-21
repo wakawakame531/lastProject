@@ -101,7 +101,7 @@
 
 .hours-list dt {
     font-size: 1.1em;
-    color: #555;
+    color: #5b3e37;
     margin-right: 15px; /* dtとddの間のスペース */
     min-width: 80px; /* dtの最小幅を設定して揃える */
     text-align: right; /* dtのテキストを右揃えに */
@@ -136,5 +136,9 @@
     .hours-list dd {
         font-size: 5pt;
         margin-bottom: 15px;
+    }
+
+    .hours-listdt {
+        font-size: 16pt;
     }
 }
